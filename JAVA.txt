@@ -1,0 +1,16 @@
+	- Java technologie développée par Sun Microsystems -James Gosling et Patrick Naughton ) dans les années 90 
+	- 2 gds principes : fonctionnement sur n'importe quel matériel et language plus simple que le C++ (pas besoin de gérer la mémoire du programme). 
+	- Racheté par oracle depuis 2009
+	- Développement frontend : visible par utilisateur : boutons, animations, textes affichés : design et expérience important 
+	- Développement backend : ce que l'utilisateur ne voit pas forcément 
+	- Créer des applications riches, robustes, maintenables ds le tps.
+	- Language compilé : ce que l'on ecrit est transformé en language compréhensible pr l'ordinateur grâce à un compilateur (a compilation est propre à l'ordinateur il faut recompiler sur un autre) ex: C++ 
+	- Language interprété : un interpréteur (remplace compilateur) lit votre code ligne par ligne et l'execute au fur et à mesure (à chaque fois que le programme est démarré), impacte les performances car ajoute une étape lors de l'execution du pg mais peut etre utilisé sur ts les systèmes (auj interpreteur vont compiler à la première lecture pr éviter de relire) ex: Javascript, python 
+	- Language intermédiaire :   compromis entre les deux avants , un compilateur va etre utilisé pr transformer le code en un code pseudo compilé (pas directement compréhensible par la machine plus rapidement lu par celle-ci) ensuite un interpréteur est utilisé pr faire fonctionner ce language (plus rapide car pseudo-compilé) 
+	- Pseudo language = byte code 
+	- Interpreteur = Java Virtual Machine (interpreteur Byte code, outil de gestion de la mémoire, ensemble de fonctionnalité, optimiseur de code) 
+	- Terminal = programme permettant d'exécuter des commandes et de faire fonctionner des programmes 
+	- Variable d'environnement = catalogue qui donne des informations au système d'exploitation pr fonctionner (variable Path = sert à indiquer ou sont situé les programmes)
+	- Logiciels appelés environnement de développent ou integrated development environment (auto complétion syntaxique, verification d'erreur en live, différents outis de compilation, outils de debugging avancés) (adapté pour JAVA : Ecliipse, Netbeans, IntelliJ) 
+	- Javadoc = format de documentation qui permet de savoir utiliser rapidement une variable objet (ex string) 
+	- Mkdir nomdedossier : créer dossier

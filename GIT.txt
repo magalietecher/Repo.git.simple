@@ -1,0 +1,25 @@
+	- Versionner un code = gérer les versions du code au fur et à mesure qu'on le modifie 
+	- Logiciel de versionning permet de garder la trace de toutes les modifications faites sur votre code pour pouvoir y retourner à tout moment. 
+	- Chaque modification est enregistré dans un commit (version du code à un instant T) 
+	- Deux types de logiciels de versionning : modèle centralisé (serveur central qui contrôle tte la base du code du logiciel ex: svn, cvs) et modèle distribué (ttes les machaines ont accés à la base de code pas besoin de passer par un serveur central ex: git, mercurial, bazaar) 
+	- Le modèle distribué a pluseurs avantages : moins de risque de perdre son code puisqu'il est accessible par plusieurs sources , et on peut travailler plus rapidement sans etre connecté à internet puisqu('il n'y a pas besoin de se connecter à un serveur central. 
+	- Créer dossier repository : repertoire de commit, se placer dans le dossier et inserer ds la console git init (pour l'activer) 
+	- Lorsqu'on ajoute un commit dans le repository il faut l'ajouter a l'index git en inserant git add nomdufichier.extension
+	- Lorsqu'on modifie le repository il faut demande à git d'enregistrer les modifications : git commit -m "fichier.extension"
+	- Git log : affiche la liste de ts les commits réalisés du + récent en haut au + ancien en bas de la liste 
+	- Le commit est repertorié par: son sha (identifiant unique , code long); auteur; date; description (message clair lors du git commit -m)
+	- Si on ne met seulement un fichier déjà mis ds l'index : on peut condenser par git commit -a -m "fichier.extension" (-a demande à git de mettre à jour les fichiers existants) 
+	- Pour se positionner sur un commit de l'historique : git checkout SHAducommit et pour revenir au commit le plus récent git checkout master
+	- Modifier le message du commit si on ne l'a pas encore pushé sur l'origine : git commit -- amend -m "nvmessage"
+	- Annuler ts les changements que je n'ai pas encore commités : git reset --hard
+	- Remote : autre machine qui peut etre interne (autre ordin) ou externe qui permet le travail à plusieurs  (GitHub ou BitBucket). Il sert à avoir un autre backup du code. 
+	- GitHub service en ligne qui permet d'heberger les repositories de code : communiquer avec d'autres développeurs et signaler des pb, partager des morceaux de code, proposer des modifications de code à d'autres repos en faisant des pull requests, recuperer du code depuis un repository
+	- On peut cloner un code depuis github : dans le dossier voulu on tape la commande git clone lien
+	- Pour créer un repository sur github: on selectionner initialise with readme qui permet de cloner le repository sur la machine. On le coche uniquement si celui-ci n'a pas été crée sur notre machine 
+	- Une fois le repository crée sur github on peut : voir les commits effectués (par vous ou d'autres) et cloner le projet et le ramener sur votre machine via la commande git clone 
+	- Git clone 2 options : https (option la plus simple) et ssh (+ compliquée car une clé ssh doit étre genere)
+	- Git push origin master : envoyer les modifications sur le repo github "envoie les modifs dans la branche master de mon remote origin" 
+	- Branche master : branche qui contient le code courant du repo github 
+	- Remote qui lequel on envoit le code est appelé origin. Ici le remote est github 
+	- Git pull origin master : cmd qui permet de récuperer en local les dernières modifications du repo GitHub en ligne "envoie dans mon repertoire loacl les dernières modif de la branche master située sur mon remote origin" (à faire régulièrement
+	-  
