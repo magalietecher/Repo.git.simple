@@ -23,4 +23,4 @@
 	- Remote qui lequel on envoit le code est appelé origin. Ici le remote est github 
 	- Git pull origin master : cmd qui permet de récuperer en local les dernières modifications du repo GitHub en ligne "envoie dans mon repertoire loacl les dernières modif de la branche master située sur mon remote origin" (à faire régulièrement
 	
-FAIRE EXERCICE
+FAIRE EXERCICES
